@@ -10,8 +10,8 @@
 		176EE0FE16C5AA8CD22F2D62A5FF47F6 /* OCUtilsFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A944D8A410E81E4BCB4423A4880F968 /* OCUtilsFramework-dummy.m */; };
 		1AC53B8F3F7B248E560FB2931F43E42D /* OCUtilsFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E74D21E33C3B01214EB3821E38431DC9 /* OCUtilsFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EF1619A0A3FE6C15271C47298C42B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50F6FDCC267467C4000CDB90 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6FDCB267467C4000CDB90 /* UtilityClass.swift */; };
 		58FF14104A0B085A0AB6E777B6DF56AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		81A86FBD26AA6F0674724C651188DD26 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF58C9458BA75B33A5F6C7015CB60CD /* ReplaceMe.swift */; };
 		8CB5ACE4E39CB26EE66B464EF009F585 /* Pods-OCUtilsFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A57D3EE5BF841EE383EDF99C8FF5F127 /* Pods-OCUtilsFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94AA9FAD23B41AEC8A9AFE1F85E5B410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C560742EBDCCE79962DEEC8C393D586A /* Pods-OCUtilsFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4DF296C8710C9DBE769804FE16BF0F /* Pods-OCUtilsFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,34 +38,34 @@
 
 /* Begin PBXFileReference section */
 		054107363FB7DBDA47A431286E51EA0E /* Pods-OCUtilsFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCUtilsFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		09CA291549D51D938808AB2C1F35F0E5 /* OCUtilsFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCUtilsFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09CA291549D51D938808AB2C1F35F0E5 /* OCUtilsFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCUtilsFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A66D4D720AB200D7E616359EB2EB427 /* OCUtilsFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCUtilsFramework-prefix.pch"; sourceTree = "<group>"; };
-		0AF58C9458BA75B33A5F6C7015CB60CD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OCUtilsFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0D49AB05F70BB8507C5465CB40E62B45 /* Pods-OCUtilsFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCUtilsFramework_Tests-Info.plist"; sourceTree = "<group>"; };
-		13A9997F180476D1F9336159796FC8F1 /* Pods_OCUtilsFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCUtilsFramework_Tests.framework; path = "Pods-OCUtilsFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A9997F180476D1F9336159796FC8F1 /* Pods_OCUtilsFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCUtilsFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160FDA23CA6BFF677179C5BBFF764D6E /* Pods-OCUtilsFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCUtilsFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		172DAD7BC83FD3D4C0D7BAA76622E58E /* Pods-OCUtilsFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCUtilsFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		245EE122EA389AC9168694B39574A605 /* Pods-OCUtilsFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCUtilsFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A944D8A410E81E4BCB4423A4880F968 /* OCUtilsFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCUtilsFramework-dummy.m"; sourceTree = "<group>"; };
 		49F22F84F6669A003AE67FA1E7780AD9 /* Pods-OCUtilsFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCUtilsFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		595BC0ECCDD2F614555D7AB7025E3283 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50F6FDCB267467C4000CDB90 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		595BC0ECCDD2F614555D7AB7025E3283 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		620B75DB1CB99B16FA1DC80C3ED5FEA0 /* OCUtilsFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCUtilsFramework.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		745B05525048E4DD21A95967C85AD2E3 /* OCUtilsFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCUtilsFramework.modulemap; sourceTree = "<group>"; };
 		7553B98F249410FEDF60C4BF9A12E525 /* Pods-OCUtilsFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCUtilsFramework_Example.modulemap"; sourceTree = "<group>"; };
 		75ADAD08B41B5BCFEB3DE359FC0C77F6 /* Pods-OCUtilsFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCUtilsFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		7A4A1BB29D9ACA6472BCB37D0E4CCEE6 /* OCUtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCUtilsFramework.framework; path = OCUtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4A1BB29D9ACA6472BCB37D0E4CCEE6 /* OCUtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCUtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4DF296C8710C9DBE769804FE16BF0F /* Pods-OCUtilsFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCUtilsFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8CFE26F58AF8ECA8B7586E05727E7C13 /* Pods-OCUtilsFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCUtilsFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		932E3244B89C4F18D4158C56BF5DABAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		932E3244B89C4F18D4158C56BF5DABAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9C095B4650DE38E8DCF2440AD836D6FF /* Pods-OCUtilsFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCUtilsFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2F9F84DB97CE9CBD788C94AB535E0EC /* OCUtilsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCUtilsFramework.debug.xcconfig; sourceTree = "<group>"; };
 		A4DC41758A21FB586C741A9E26C5D266 /* Pods-OCUtilsFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCUtilsFramework_Example-Info.plist"; sourceTree = "<group>"; };
 		A57D3EE5BF841EE383EDF99C8FF5F127 /* Pods-OCUtilsFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCUtilsFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		BD1DE2EB48D6585E205DA32EDEB8483D /* Pods-OCUtilsFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCUtilsFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C070EE0DA347A8A4ECC9CB6B3BD67D7D /* Pods-OCUtilsFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCUtilsFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		C4376EA6DC2291CBE10CA6E3D45C7A3C /* Pods_OCUtilsFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCUtilsFramework_Example.framework; path = "Pods-OCUtilsFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4376EA6DC2291CBE10CA6E3D45C7A3C /* Pods_OCUtilsFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCUtilsFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D63DFD49B255537D2EFD62C2259641 /* Pods-OCUtilsFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCUtilsFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E74D21E33C3B01214EB3821E38431DC9 /* OCUtilsFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCUtilsFramework-umbrella.h"; sourceTree = "<group>"; };
 		EA7297B5E119608B2DBE44EE43DDF13C /* OCUtilsFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCUtilsFramework-Info.plist"; sourceTree = "<group>"; };
@@ -103,12 +103,20 @@
 		4AF7C8045BD6466E22A4E49055466C88 /* OCUtilsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				0AF58C9458BA75B33A5F6C7015CB60CD /* ReplaceMe.swift */,
+				50F6FDCA26746728000CDB90 /* Classes */,
 				A6BBEFE3A389911EDBDC5880C5B1839C /* Pod */,
 				61401C7D87D5727013193E951EA43478 /* Support Files */,
 			);
 			name = OCUtilsFramework;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		50F6FDCA26746728000CDB90 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50F6FDCB267467C4000CDB90 /* UtilityClass.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -384,7 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				176EE0FE16C5AA8CD22F2D62A5FF47F6 /* OCUtilsFramework-dummy.m in Sources */,
-				81A86FBD26AA6F0674724C651188DD26 /* ReplaceMe.swift in Sources */,
+				50F6FDCC267467C4000CDB90 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +528,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OCUtilsFramework/OCUtilsFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OCUtilsFramework/OCUtilsFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OCUtilsFramework/OCUtilsFramework.modulemap";
 				PRODUCT_MODULE_NAME = OCUtilsFramework;
@@ -528,7 +536,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -615,7 +623,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OCUtilsFramework/OCUtilsFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OCUtilsFramework/OCUtilsFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OCUtilsFramework/OCUtilsFramework.modulemap";
 				PRODUCT_MODULE_NAME = OCUtilsFramework;
@@ -623,7 +631,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -686,8 +694,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B9218EA7202E283CDDC49F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		09642F45E0F11C8F6F6A496E /* OCUtilsFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OCUtilsFramework.podspec; path = ../OCUtilsFramework.podspec; sourceTree = "<group>"; };
+		00B9218EA7202E283CDDC49F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09642F45E0F11C8F6F6A496E /* OCUtilsFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCUtilsFramework.podspec; path = ../OCUtilsFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		16B30023F6B143676830DAE3 /* Pods-OCUtilsFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUtilsFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-OCUtilsFramework_Example/Pods-OCUtilsFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D506B3621D93B4D97C2EF02 /* Pods-OCUtilsFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUtilsFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-OCUtilsFramework_Example/Pods-OCUtilsFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		342C27B8419B4B8CC2C7B84C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		342C27B8419B4B8CC2C7B84C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5482E12C7C61F7A6DCC7878C /* Pods-OCUtilsFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUtilsFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-OCUtilsFramework_Tests/Pods-OCUtilsFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OCUtilsFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCUtilsFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				732C420980446750950AF55F /* Pods-OCUtilsFramework_Tests.debug.xcconfig */,
 				5482E12C7C61F7A6DCC7878C /* Pods-OCUtilsFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
