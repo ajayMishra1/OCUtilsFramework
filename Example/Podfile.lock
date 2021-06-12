@@ -1,0 +1,16 @@
+PODS:
+  - OCUtilsFramework (0.1.0)
+
+DEPENDENCIES:
+  - OCUtilsFramework (from `../`)
+
+EXTERNAL SOURCES:
+  OCUtilsFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCUtilsFramework: 4094994e4ee35c6b74671082fffacd0caf1ca6cd
+
+PODFILE CHECKSUM: 95be0140dd4344ac498e28906d91d6cb4e390ba0
+
+COCOAPODS: 1.10.1

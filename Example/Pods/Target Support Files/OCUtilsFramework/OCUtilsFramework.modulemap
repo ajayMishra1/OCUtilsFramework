@@ -1,0 +1,6 @@
+framework module OCUtilsFramework {
+  umbrella header "OCUtilsFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

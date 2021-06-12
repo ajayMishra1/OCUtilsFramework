@@ -1,0 +1,22 @@
+{
+  "name": "OCUtilsFramework",
+  "version": "0.1.0",
+  "summary": "A short description of OCUtilsFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/one-click-react-native/OCUtilsFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "one-click-react-native": "ajay@itoneclick.com"
+  },
+  "source": {
+    "git": "https://github.com/one-click-react-native/OCUtilsFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "OCUtilsFramework/Classes/**/*"
+}
