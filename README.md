@@ -22,7 +22,7 @@ pod 'OCUtilsFramework'
 
 ## Author
 
-one-click-ios-developer, ajay@itoneclick.com/mishraajay9898@gmail.com
+one-click-ios-developer, ajay@itoneclick.com, mishraajay9898@gmail.com
 
 ## License
 
