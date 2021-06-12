@@ -2,12 +2,83 @@
 
 import Foundation
 import UIKit
+import Alamofire
+import Reachability
 
 public class UtilityClass
 {
     
     private init() {
         
+    }
+    
+    public static func isInternetHasConnectivity() -> Bool {
+        
+        do {
+            let flag = try Reachability().isReachable
+            return flag
+        }catch{
+            return false
+            
+        }
+    }
+    
+    public static func request(type: RequireType, data parameters: [String : Any] = [:],  success: ((_ response: Any) -> ())? = nil, errorr: ((_ response: String) -> ())? = nil) {
+        
+        if !UtilityClass.isInternetHasConnectivity(){
+            errorr!("No Network. Please check your network and try again");
+        }
+        else{
+            
+            Alamofire.request(type.url, method: type.httpMethod, parameters: parameters, encoding: type.encoding, headers: type.headers)
+                .responseJSON { response in
+                   
+                    switch response.result {
+                        
+                    case .success(_):
+                        if let dict = response.value{
+                            UtilityClass.myPrint(dict)
+                            if let code = response.response?.statusCode {
+                                 if code == 200{
+                                    if let dictt = dict as? NSDictionary{
+                                        
+                                        let Maindict = dictt.mutableCopy() as! NSMutableDictionary
+                                        success!(Maindict)
+                                        
+                                        
+                                    }else{
+                                        success!(dict)
+                                    }
+                                    
+                                }else{
+                                    if let dict12 = dict as? NSDictionary{
+      
+                                        success!(dict12)
+                                    }else{
+                                        let dict = NSMutableDictionary()
+                                        dict.setValue(code, forKey: "code")
+                                        dict.setValue("ERROR_MESSAGE_GLOBAL", forKey: "message")
+                                        var dict1 = NSDictionary()
+                                        dict1 = dict
+                                        
+                                        success!(dict1)
+                                    }
+                                }
+                            }else{
+                               let dict = NSMutableDictionary()
+                                dict.setValue("ERROR_MESSAGE_GLOBAL", forKey: "message")
+                                var dict1 = NSDictionary()
+                                dict1 = dict
+                                success!(dict1)
+                            }
+                        }
+                        break
+                    case .failure(let error):
+                        errorr!(error.localizedDescription)
+                        break
+                    }
+            }
+        }
     }
     // MARK:- Check Internet
     public static func getIPAddressForCellOrWireless()-> String? {

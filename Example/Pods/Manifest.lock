@@ -1,15 +1,50 @@
 PODS:
-  - OCUtilsFramework (0.1.0)
+  - Alamofire (4.9.1)
+  - OCUtilsFramework (0.1.1):
+    - Alamofire
+    - ReachabilitySwift
+    - SwifterSwift
+  - ReachabilitySwift (5.0.0)
+  - SwifterSwift (5.1.0):
+    - SwifterSwift/AppKit (= 5.1.0)
+    - SwifterSwift/CoreGraphics (= 5.1.0)
+    - SwifterSwift/CoreLocation (= 5.1.0)
+    - SwifterSwift/Dispatch (= 5.1.0)
+    - SwifterSwift/Foundation (= 5.1.0)
+    - SwifterSwift/MapKit (= 5.1.0)
+    - SwifterSwift/SceneKit (= 5.1.0)
+    - SwifterSwift/SpriteKit (= 5.1.0)
+    - SwifterSwift/SwiftStdlib (= 5.1.0)
+    - SwifterSwift/UIKit (= 5.1.0)
+  - SwifterSwift/AppKit (5.1.0)
+  - SwifterSwift/CoreGraphics (5.1.0)
+  - SwifterSwift/CoreLocation (5.1.0)
+  - SwifterSwift/Dispatch (5.1.0)
+  - SwifterSwift/Foundation (5.1.0)
+  - SwifterSwift/MapKit (5.1.0)
+  - SwifterSwift/SceneKit (5.1.0)
+  - SwifterSwift/SpriteKit (5.1.0)
+  - SwifterSwift/SwiftStdlib (5.1.0)
+  - SwifterSwift/UIKit (5.1.0)
 
 DEPENDENCIES:
   - OCUtilsFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ReachabilitySwift
+    - SwifterSwift
 
 EXTERNAL SOURCES:
   OCUtilsFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OCUtilsFramework: 4094994e4ee35c6b74671082fffacd0caf1ca6cd
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  OCUtilsFramework: d9c3ded7d6286ab524274e477bed2fdff3080b89
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
 
 PODFILE CHECKSUM: 95be0140dd4344ac498e28906d91d6cb4e390ba0
 
