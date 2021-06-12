@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+footer {
+  display: none !important;
+}
