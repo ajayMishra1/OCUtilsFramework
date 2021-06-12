@@ -30,7 +30,7 @@ public class UtilityClass
         }
         else{
             
-            Alamofire.request(type.url, method: type.httpMethod, parameters: parameters, encoding: type.encoding, headers: type.headers)
+            AF.request(type.url, method: type.httpMethod, parameters: parameters, encoding: type.encoding, headers: type.headers)
                 .responseJSON { response in
                    
                     switch response.result {
