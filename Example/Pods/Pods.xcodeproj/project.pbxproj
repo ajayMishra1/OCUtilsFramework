@@ -56,7 +56,6 @@
 		4B7A72315B681A20366BA7EF0B8EBC28 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB433D609613AE545C26E2BB843DA81C /* URLExtensions.swift */; };
 		4C1CC8E088E2E4AF3F2420EDA4817D84 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375D8FE64718E90E3C605209206E526 /* StringExtensions.swift */; };
 		50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678490CA1D7C0DC7955580668ADEA59A /* Foundation.framework */; };
-		50F6FDCE26749A76000CDB90 /* AlmofireEssential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6FDCD26749A76000CDB90 /* AlmofireEssential.swift */; };
 		522B3FFEAD57AECB114FBE5BECA84B5A /* MKPolylineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A428A9CD19D3B471244A32789303A4 /* MKPolylineExtensions.swift */; };
 		532413596B75A4CF3C5E617BAD34EB46 /* UISegmentedControlExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F4D9325B2E176D15474CAA8C8D142 /* UISegmentedControlExtensions.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DAC265DDA1E391F0515B070A836AF /* Validation.swift */; };
@@ -255,7 +254,6 @@
 		4E3DAC265DDA1E391F0515B070A836AF /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		4E89BCA27514780FEB2A994AD0DE4408 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		50DF7B0223D5EFA4882FF32E015BD1DF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		50F6FDCD26749A76000CDB90 /* AlmofireEssential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmofireEssential.swift; sourceTree = "<group>"; };
 		527CCD7239780AB117DBAD091C9261E1 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/ArrayExtensions.swift; sourceTree = "<group>"; };
 		52EB65DEDF9607473D1CFE14E88D3AF9 /* SCNSphereExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNSphereExtensions.swift; path = Sources/SwifterSwift/SceneKit/SCNSphereExtensions.swift; sourceTree = "<group>"; };
 		53B4F8E566C851464EBD6265BA89E54A /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = Sources/SwifterSwift/Foundation/DataExtensions.swift; sourceTree = "<group>"; };
@@ -777,7 +775,6 @@
 		C182E5D5D7DC4613CCC8E058031B37AE /* OCUtilsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				50F6FDCD26749A76000CDB90 /* AlmofireEssential.swift */,
 				10FE10C76F993CA0F5D4E55963425763 /* UtilityClass.swift */,
 				87CD0460F164F445A7513A7CBEAF91B2 /* Pod */,
 				91E973C3C32A7384F760591560942756 /* Support Files */,
@@ -1225,7 +1222,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				404A2C7746AB105FC4D79E55854DB3E7 /* OCUtilsFramework-dummy.m in Sources */,
-				50F6FDCE26749A76000CDB90 /* AlmofireEssential.swift in Sources */,
 				9761FDA2C6759459C4031BA85BA8DA83 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
